@@ -6,7 +6,7 @@ nav {
     background-color: #2C3E50;
 }
 
-.jumbotron {
+.bg-green {
     background-color: #1ABC9C;
 }
 
@@ -16,4 +16,12 @@ nav {
 
 .card {
     min-height: 200px;
+}
+
+.top-footer {
+    background-color: #3A546D;
+}
+
+.bottom-footer {
+    background-color: #2C3E50;
 }
