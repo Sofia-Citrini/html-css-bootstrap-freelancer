@@ -1,3 +1,19 @@
+.container {
+    border: 1px dashed red;
+}
+
 nav {
     background-color: #2C3E50;
+}
+
+.jumbotron {
+    background-color: #1ABC9C;
+}
+
+.avatar {
+    width: 300px;
+}
+
+.card {
+    min-height: 200px;
 }
