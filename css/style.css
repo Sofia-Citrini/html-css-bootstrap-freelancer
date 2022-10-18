@@ -32,6 +32,10 @@ nav {
     background-color: #3A546D;
 }
 
+.icon-button i {
+    width: 16px;
+}
+
 .bottom-footer {
     background-color: #2C3E50;
 }
