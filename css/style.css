@@ -11,6 +11,11 @@ nav {
 }
 
 .star-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.star-container-small {
     max-width: 200px;
     margin: 0 auto;
 }
