@@ -21,10 +21,6 @@ nav {
     flex-grow: 1;
 }
 
-.card {
-    min-height: 200px;
-}
-
 .top-footer {
     background-color: #3A546D;
 }
