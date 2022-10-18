@@ -21,6 +21,13 @@ nav {
     flex-grow: 1;
 }
 
+.my_form_control {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
 .top-footer {
     background-color: #3A546D;
 }

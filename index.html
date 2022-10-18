@@ -140,11 +140,33 @@
         <section class="py-5">
             <div class="container">
                 <h2 class="text-center">CONTACT ME</h2>
+                <div class="star-container d-flex align-items-center py-4">
+                    <div class="line-star bg-dark"></div>
+                    <i class="fas fa-star fs-2 mx-3"></i>
+                    <div class="line-star bg-dark"></div>
+                </div>
 
                 <div class="d-flex justify-content-center">
                     <div class="col-10">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum praesentium harum dolorem molestias tempore sit quo quasi, iure et doloremque nihil quis provident mollitia inventore eaque saepe eligendi alias esse.</p>
-                        <div class="py-3"><button type="button" class="btn btn-success">Download</button></div>
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control my_form_control" id="floatingInput" placeholder="Name">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control my_form_control" id="floatingInput" placeholder="EmailAddress">
+                                <label for="floatingInput">Email Address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control my_form_control" id="floatingInput" placeholder="PhoneNumber">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control my_form_control" placeholder="Message" id="floatingTextarea" style="height:200px"></textarea>
+                                <label for="floatingTextarea">Message</label>
+                              </div>
+                        </form>
+                        <div class="py-3"><button type="button" class="btn text-white" style="background-color:#1ABC9C;">Download</button></div>
                     </div>
                 </div>
             </div>
